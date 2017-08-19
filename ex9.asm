@@ -47,7 +47,7 @@ start:	mov ax,data
 			loop s2
 			
 		pop ax
-		add ax,0ah
+		add ax,0ah		;段地址每次偏移ah
 		
 		pop cx
 		
